@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/Roboto/Roboto-Regular.ttf);
+    font-style: normal;
+}
+:root{
+    box-sizing: border-box !important;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+#form{
+    background-color: gray !important;
+    text-align: center !important;
+    width: 50% !important;
+    height: 20rem !important;
+    margin: 0 auto !important;
+    padding-top: 15% !important;
+    box-shadow: 3px 3px 4px  black !important;
+}
+.content{
+    width: 80% !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+#form > input{
+    margin: 0.5rem 0.5rem !important;
+    height: 1.5rem !important;
+    border: 1px solid transparent !important;
+    border-radius: 10px 10px 10px 10px !important;
+    font-family: Roboto !important;
+}
+
+#form > .btn{
+    cursor:  pointer !important;
+    width: 7rem;
+}
+
+.modal{
+    position: absolute !important;
+    z-index: 1 !important;
+    background-color: #ff6600 !important;
+    width: 40%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px  black !important;
+    min-height: 200px;
+    margin: 0 auto;
+    bottom:40%;
+    left: 30%;
+
+}
+.modal-message{
+    text-align: center;
+    color:#FFFFFF;
+    cursor: text;
+}
+.modal-btn{
+    margin-top: 3rem;
+    height: 2rem;
+    width: 7rem;
+    cursor: pointer;
+}
+.opac{
+    background-color: rgba(0,0,0,0.6);
+}

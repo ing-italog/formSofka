@@ -1,0 +1,24 @@
+/*
+    Cambiar el color de fondo al color #ff6600 (Formulario)    
+    Redondear el Formulario, modificar el texto de envio
+*/
+#form{
+    background-color: #ff6600 !important;
+    border-radius:  10px;
+}
+
+
+/*
+* Cambiar el color de letra al color ##FFFFFF
+*/
+input[type=text]{
+    color: #FFFFFF !important;
+}
+
+
+/*
+* Cambiar el color de letra al color ##FFFFFF
+*/
+input[type=number]{
+    color: #FFFFFF !important;
+}
